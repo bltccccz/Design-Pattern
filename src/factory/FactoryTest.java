@@ -19,7 +19,7 @@ public class FactoryTest {
      * <p>
      * SimpleMachineFactory中只要明确需要生成的对象，即可生成;
      * 而继承AbstractMachineFactory的工厂可以提供特定定制服务，比如 机器人 的产品中存在一个Terminator系列，T800继承
-     * Terminator,该系列中还有T2000,T3000等等，并且同一型号可以生产多台;
+     * ITerminatorControlCenter,该系列中还有T2000,T3000等等，并且同一型号可以生产多台;
      * 而周星星系列只有一个，所以采用单例;
      * <p>
      * 此处的工厂中没有详细分开是因为仅仅是作为演示
